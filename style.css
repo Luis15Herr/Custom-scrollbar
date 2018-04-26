@@ -1,0 +1,87 @@
+*{
+	border-sizing:border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: #f3eded;
+}
+
+h1{
+	font-size: 25px;
+}
+
+hr{
+	width: 30%;
+	height:7px;
+	margin: 20px 0px;
+	border: none;
+}
+
+.test-scroll{
+	display: flex;
+
+}
+/*Primer Scrollbar*/
+.container{
+	max-width: 300px;
+	height: 400px;
+	background-color:white;
+	padding: 15px;
+	overflow: auto;
+	margin: 15px;
+}
+.container hr{
+	background-color:#1dece1bf; 
+}
+
+.container::-webkit-scrollbar{
+	width: 7px;
+}
+
+.container::-webkit-scrollbar-thumb{
+	background-color: #1dece1bf;
+	border-radius: 15px;
+}
+
+/*segundo Scrollbar*/
+.container-1{
+	max-width: 300px;
+	background-color:white;
+	padding: 15px;
+	overflow: auto;
+}	
+
+.container-1 hr{
+	background-color:#414141; 
+}
+body::-webkit-scrollbar{
+	width: 8px; 
+}
+body::-webkit-scrollbar-thumb{
+	background-color: #414141;
+}
+
+/*Tercer Scrollbar*/
+.container-2{
+	max-width: 300px;
+	height: 400px;
+	background-color: white;
+	padding: 15px;
+	overflow: auto;
+	margin: 15px;
+}
+.container-2 hr{
+	background-color:white; 
+}
+.container-2::-webkit-scrollbar{
+	width: 7px;
+	background-color: white;
+}
+
+.container-2::-webkit-scrollbar-thumb{
+	background-color: #c2c2c2;
+	border-radius: 5px;
+	border: 1px solid white;
+}
